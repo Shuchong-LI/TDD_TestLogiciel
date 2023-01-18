@@ -5,6 +5,7 @@ class test_ex1(unittest.TestCase):
 	def test_isSuiteGeometrique(self):
 		print("testing isSuiteGeometrique...")
 
+
 		#integer list
 		self.assertEqual(ex1.isSuiteGeometrique([1,2,4,8,16]),True)
 		self.assertEqual(ex1.isSuiteGeometrique([2,4,8,16,32]),True)
